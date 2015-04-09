@@ -38,11 +38,11 @@ namespace DontWriteToMe
         {
 
             string[] cumleler = new string[5];
-            cumleler[0] = "I Have Chat Ban Can't Write";
-            cumleler[1] = "If I Write In Game I Will Confused So I Can't Write In Game";
-            cumleler[2] = "Rito Has Give A Chat Ban For Me So I Can't Write In Game";
-            cumleler[3] = "Please Play Carefully Don't Write To Each Other";
-            cumleler[4] = "I Have Some Ping If I Play Bad Please Excuse Me";
+            cumleler[0] = "Good luck have fun mates :)";
+            cumleler[1] = "GL HF guys lets win :)";
+            cumleler[2] = "FUKKK i got chat ban!!!ritoo...pfff gl.";
+            cumleler[3] = "Good luck guys";
+            cumleler[4] = "pfff i hate all enemy champions.But we can win ahaha xD";
 
             Random rnd = new Random();
             int rastgele = rnd.Next(0, 4);
@@ -51,7 +51,7 @@ namespace DontWriteToMe
 
         private static void Game_OnGameEnd(EventArgs args)
         {
-            Game.Say("GG");
+            Game.Say("Good game xD");
         }
 
 
